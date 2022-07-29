@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pianonotes/static/css/main.706fcc16.css",
+    "main.js": "/pianonotes/static/js/main.dbab8b15.js",
+    "static/js/787.697a91bf.chunk.js": "/pianonotes/static/js/787.697a91bf.chunk.js",
+    "index.html": "/pianonotes/index.html",
+    "main.706fcc16.css.map": "/pianonotes/static/css/main.706fcc16.css.map",
+    "main.dbab8b15.js.map": "/pianonotes/static/js/main.dbab8b15.js.map",
+    "787.697a91bf.chunk.js.map": "/pianonotes/static/js/787.697a91bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.706fcc16.css",
+    "static/js/main.dbab8b15.js"
+  ]
+}
