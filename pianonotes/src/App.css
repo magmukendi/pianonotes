@@ -1,20 +1,28 @@
 .App{
   display:flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin:auto;
+  width: 90%;
 }
 
 .bg{
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
-
+#off{
+  width:0px;
+  height: 0px;
+}
 .bg div{
   visibility: hidden;
 }
 
 #note-container {
   visibility: visible;
-  margin: auto;
+  margin-top: 0px;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -25,3 +33,102 @@
   width: 80px;
   height: 60px;
 }
+
+
+
+  /*Footer ========*/
+
+  .footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top:1vh;
+    position: relative;
+    bottom: -50;
+    width:100%;
+    padding: 2rem 0rem 2rem 0rem;
+  
+  }
+  .h3
+  
+  .footer hr{
+    width: 35%;
+    margin:auto;
+    margin-bottom: 1rem;
+  }
+  .footer span{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+  }
+  
+  .footer span:hover{
+    color: rgb(35, 66, 153);
+    opacity: 1;
+  }
+  .footer p{
+    margin: 1rem 0rem 0.5rem 0rem;
+    font-size: 12px;
+    width: 40%;
+    text-align: center;
+  }
+  .footer div{
+    margin:auto;
+  }
+  
+  
+  
+  @media (min-width:200px) and (max-width: 450px) {
+    .meme-container {
+      width:90vw;
+      margin: auto;
+    }
+    .meme-button, .meme-input,.download, button{
+      width:90vw
+    }
+    .meme--text{
+      font-size: 1.6rem;
+    }
+    .in-meme{
+      width:100%;
+    }
+    .footer p{
+      margin: 1rem 0rem 0.5rem 0rem;
+      font-size: 12px;
+      width: 85%;
+      text-align: center;
+    }
+
+  }
+
+  @media (min-width: 451px) and (max-width: 890px) {
+    .meme-container{
+      width:100%;
+    }
+    .in-meme{
+      width:100%;
+    }
+    .meme-input{
+      width: 100%;
+    }
+    .meme-button, .download, button{
+      width:90%;
+    }
+    .in-meme input{
+      width: 90%
+    }
+    .img-container{
+      width: 90%;
+    }
+    .meme-img{
+      width: 100%;
+    }
+    .footer p{
+      margin: 1rem 0rem 0.5rem 0rem;
+      font-size: 12px;
+      width: 85%;
+      text-align: center;
+    }
+  }

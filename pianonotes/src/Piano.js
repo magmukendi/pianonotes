@@ -52,17 +52,21 @@ class Piano extends Component {
         {item.note}
       </button>
     ));
-
+        const off={
+            visibility: "hidden",
+            width: "0px",
+            height: "0px"
+        }
     return (
         
         <div className="bg">
           <MIDISounds
-            className="pff"
+            style={off}
             ref={(ref) => (this.midiSounds = ref)}
             appElementName="root"
             instruments={[3]}
           />
-          <h3>Note Player</h3>
+          
           <div id="note-container">{keyElements}</div>
         </div>
     );
