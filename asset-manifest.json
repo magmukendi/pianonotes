@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pianonotes/static/css/main.56c258e7.css",
-    "main.js": "/pianonotes/static/js/main.fd821f04.js",
-    "static/js/787.697a91bf.chunk.js": "/pianonotes/static/js/787.697a91bf.chunk.js",
+    "main.css": "/pianonotes/static/css/main.e614dcb0.css",
+    "main.js": "/pianonotes/static/js/main.db193493.js",
+    "static/js/787.05802119.chunk.js": "/pianonotes/static/js/787.05802119.chunk.js",
     "index.html": "/pianonotes/index.html",
-    "main.56c258e7.css.map": "/pianonotes/static/css/main.56c258e7.css.map",
-    "main.fd821f04.js.map": "/pianonotes/static/js/main.fd821f04.js.map",
-    "787.697a91bf.chunk.js.map": "/pianonotes/static/js/787.697a91bf.chunk.js.map"
+    "main.e614dcb0.css.map": "/pianonotes/static/css/main.e614dcb0.css.map",
+    "main.db193493.js.map": "/pianonotes/static/js/main.db193493.js.map",
+    "787.05802119.chunk.js.map": "/pianonotes/static/js/787.05802119.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56c258e7.css",
-    "static/js/main.fd821f04.js"
+    "static/css/main.e614dcb0.css",
+    "static/js/main.db193493.js"
   ]
 }
