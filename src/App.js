@@ -8,27 +8,27 @@ function Footer(){
 
          
           <div>
-              <a href="https://www.instagram.com/mag.legrand/" target="_blank">
+              <a  rel="noreferrer" href="https://www.instagram.com/mag.legrand/" target="_blank">
                   <span>                        
                       <i className="fa fa-instagram"></i>
                   </span>
               </a>
-              <a href="https://www.linkedin.com/in/magmukendi/" target="_blank">
+              <a  rel="noreferrer" href="https://www.linkedin.com/in/magmukendi/" target="_blank">
                   <span>                        
                       <i className="fa fa-linkedin"></i>
                   </span>
               </a>
-              <a href="https://github.com/LeGrandMAG" target="_blank">
+              <a  rel="noreferrer" href="https://github.com/LeGrandMAG" target="_blank">
                   <span>                        
                       <i className="fa fa-github"></i>
                   </span>
               </a>
-              <a href="https://twitter.com/MAGMukendi" target="_blank">
+              <a  rel="noreferrer" href="https://twitter.com/MAGMukendi" target="_blank">
                   <span>                        
                       <i className="fa fa-twitter"></i>
                   </span>
               </a>
-              <a href="https://www.facebook.com/mag.mukendi" target="_blank">
+              <a  rel="noreferrer" href="https://www.facebook.com/mag.mukendi" target="_blank">
                   <span>                        
                       <i className="fa fa-facebook"></i>
                   </span>

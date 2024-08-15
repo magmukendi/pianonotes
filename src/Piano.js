@@ -1,6 +1,4 @@
-
-
-import React, { Component, useState, useEffect } from "react";
+import React, { Component} from "react";
 
 import MIDISounds from "midi-sounds-react";
 const keyz = [];
@@ -46,8 +44,8 @@ class Piano extends Component {
           <button
           className="note"
           style={item.note.includes("#") ? styl : styl1}
-          key={notes.id}
-          id={item.id + item.note}
+          key={item.id + item.note}
+          id={item.id}
           onClick={this.play}
           >
           {item.note}
