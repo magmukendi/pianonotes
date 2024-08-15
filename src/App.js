@@ -18,7 +18,7 @@ function Footer(){
                       <i className="fa fa-linkedin"></i>
                   </span>
               </a>
-              <a  rel="noreferrer" href="https://github.com/LeGrandMAG" target="_blank">
+              <a  rel="noreferrer" href="https://github.com/magmukendi" target="_blank">
                   <span>                        
                       <i className="fa fa-github"></i>
                   </span>
@@ -34,7 +34,7 @@ function Footer(){
                   </span>
               </a>
           </div>
-              <p >© Mag Mukendi 2022</p>
+              <p >© Mag Mukendi 2024</p>
       </footer>
   )
   
