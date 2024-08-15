@@ -28,7 +28,7 @@
   flex-direction: column;
   gap: 5px;
   border:black 4px solid;
-  /*transform: rotate(-90deg);*/
+  transform: rotate(-90deg);
   position:relative; 
   height: 480px;
   margin-bottom: 2rem;

@@ -3,8 +3,8 @@ import './Piano.css';
 import MIDISounds from "midi-sounds-react";
 const keyz = [];
 
-let style1 = {height:'60px', backgroundColor:'white'}
-let style2 = {height: '35px', width:'180px', backgroundColor:'black'}
+let style1 = {height:'60px', backgroundColor:'white', color:'black'}
+let style2 = {height: '35px', width:'180px', backgroundColor:'black', color:'white'}
 const notes = [
   { id: 48, note: "DO" },
   { id: 49, note: "DO#" },
@@ -83,7 +83,7 @@ class Piano extends Component {
           id={this.replaceSpecial(item.note.toLowerCase()+item.id)}
           onClick={this.play}
           >
-          {item.note}
+            {item.note}
         </button>
         )
       }
