@@ -41,17 +41,20 @@ class Piano extends Component {
     const styl1 = {
       opacity: 1
     };
-    const keyElements = notes.map((item) => (
-      <button
-        className="note"
-        style={item.note.includes("#") ? styl : styl1}
-        key={notes.id}
-        id={item.id}
-        onClick={this.play}
-      >
-        {item.note}
-      </button>
-    ));
+    const keyElements = notes.map((item) => {
+        return(
+          <button
+          className="note"
+          style={item.note.includes("#") ? styl : styl1}
+          key={notes.id}
+          id={item.id + item.note}
+          onClick={this.play}
+          >
+          {item.note}
+        </button>
+        )
+      }
+    );
         const off={
             visibility: "hidden",
             width: "0px",
