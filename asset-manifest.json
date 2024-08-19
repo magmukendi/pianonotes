@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pianonotes/static/css/main.91fcd639.css",
-    "main.js": "/pianonotes/static/js/main.15b1676d.js",
+    "main.js": "/pianonotes/static/js/main.d84237c1.js",
     "static/js/787.05802119.chunk.js": "/pianonotes/static/js/787.05802119.chunk.js",
     "index.html": "/pianonotes/index.html",
     "main.91fcd639.css.map": "/pianonotes/static/css/main.91fcd639.css.map",
-    "main.15b1676d.js.map": "/pianonotes/static/js/main.15b1676d.js.map",
+    "main.d84237c1.js.map": "/pianonotes/static/js/main.d84237c1.js.map",
     "787.05802119.chunk.js.map": "/pianonotes/static/js/787.05802119.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91fcd639.css",
-    "static/js/main.15b1676d.js"
+    "static/js/main.d84237c1.js"
   ]
 }
