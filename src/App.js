@@ -45,7 +45,7 @@ function App() {
   return (
     
     <div className="App">
-      <h2>Piano Notes Player</h2>
+      <h2>le petit piano de mag</h2>
       <Piano/>
       <Footer/>
     </div>
